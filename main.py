@@ -29,6 +29,7 @@ configs = login.config
 if len(configs.sections()) == 0:
     logging.error("配置文件未找到配置")
     sys.exit(1)
+  print(r'''bug''')
 
 aes_key = privateCrypt.get_aes_key()
 
