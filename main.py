@@ -27,7 +27,6 @@ process.get_current_session_id()
 # 校验配置文件是否存在
 configs = login.config
 if len(configs.sections()) == 0:
-    print(r'''找呀找bug''')
     logging.error("配置文件未找到配置")
     sys.exit(1)
  
