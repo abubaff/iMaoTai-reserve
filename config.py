@@ -1,4 +1,5 @@
 import os
+'''
 # 从环境变量读取
 pushplus_key = os.environ.get("PUSHPLUS_KEY")
 private_aes_key = os.environ.get("PRIVATE_AES_KEY")
@@ -8,6 +9,7 @@ gaode_key = os.environ.get("GAODE_KEY")
 print("PUSHPLUS_KEY:", pushplus_key)
 print("PRIVATE_AES_KEY:", private_aes_key)
 print("GAODE_KEY:", gaode_key)
+'''
 
 '''
 *********** 商品配置 ***********
