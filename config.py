@@ -1,15 +1,4 @@
 import os
-'''
-# 从环境变量读取
-pushplus_key = os.environ.get("PUSHPLUS_KEY")
-private_aes_key = os.environ.get("PRIVATE_AES_KEY")
-gaode_key = os.environ.get("GAODE_KEY")
-
-# 现在可以打印这些变量
-print("PUSHPLUS_KEY:", pushplus_key)
-print("PRIVATE_AES_KEY:", private_aes_key)
-print("GAODE_KEY:", gaode_key)
-'''
 
 '''
 *********** 商品配置 ***********
@@ -21,7 +10,7 @@ ITEM_MAP = {
     "2478": "53%vol 500ml贵州茅台酒（珍品）"
 }
 
-ITEM_CODES = ['10941', '10942','10056','2478']   # 需要预约的商品(默认只预约2个赚钱的茅子)
+ITEM_CODES = ['10941', '10942']   # 需要预约的商品(默认只预约2个赚钱的茅子)
 
 '''
 *********** 消息推送配置 ***********
